@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellMienNam" rowHeight="388" id="T6n-xR-cPH" customClass="kqxsCellMienNam">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="388"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T6n-xR-cPH" id="ED5-ZV-qqJ">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="387"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Xổ Số Tiền Giang" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGR-wM-j87">
+                        <rect key="frame" x="-3" y="9" width="320" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ngày 28/06/2015" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MT-qv-6ne">
+                        <rect key="frame" x="-3" y="29" width="320" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.50729927007299269" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Đặc biệt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJg-a8-U9U">
+                        <rect key="frame" x="4" y="62" width="74" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Giải nhất" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhv-hs-Z8A">
+                        <rect key="frame" x="4" y="91" width="74" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Giải nhì" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzo-2L-qrJ">
+                        <rect key="frame" x="4" y="120" width="74" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Giải ba" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmq-di-83u">
+                        <rect key="frame" x="4" y="149" width="74" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Giải tư" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSn-g2-kOg">
+                        <rect key="frame" x="4" y="178" width="74" height="57"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Giải sáu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lF4-NO-mQc">
+                        <rect key="frame" x="4" y="265" width="74" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Giải bảy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AL7-KP-gik">
+                        <rect key="frame" x="4" y="294" width="74" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Giải năm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yav-fX-xsU">
+                        <rect key="frame" x="4" y="236" width="74" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Giải tám" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxQ-lv-Ykz">
+                        <rect key="frame" x="4" y="323" width="74" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVl-G6-RvT">
+                        <rect key="frame" x="79" y="62" width="231" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Q6-yb-MHE">
+                        <rect key="frame" x="79" y="91" width="231" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhl-ve-1Va">
+                        <rect key="frame" x="79" y="120" width="231" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eV-pw-wSC">
+                        <rect key="frame" x="79" y="149" width="116" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgy-x9-Wl3">
+                        <rect key="frame" x="196" y="149" width="114" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="57" translatesAutoresizingMaskIntoConstraints="NO" id="T3z-bJ-lLH">
+                        <rect key="frame" x="79" y="207" width="57" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="77" translatesAutoresizingMaskIntoConstraints="NO" id="KbD-FH-8vC">
+                        <rect key="frame" x="79" y="178" width="77" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="76" translatesAutoresizingMaskIntoConstraints="NO" id="qsE-ht-Iyz">
+                        <rect key="frame" x="157" y="178" width="76" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="76" translatesAutoresizingMaskIntoConstraints="NO" id="2vW-j3-Pnj">
+                        <rect key="frame" x="234" y="178" width="76" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="58" translatesAutoresizingMaskIntoConstraints="NO" id="tak-wM-pCe">
+                        <rect key="frame" x="137" y="207" width="58" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="57" translatesAutoresizingMaskIntoConstraints="NO" id="HUG-w6-NtZ">
+                        <rect key="frame" x="196" y="207" width="57" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="56" translatesAutoresizingMaskIntoConstraints="NO" id="fKl-id-Ht4">
+                        <rect key="frame" x="254" y="207" width="56" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSy-Rx-r4Y">
+                        <rect key="frame" x="157" y="265" width="76" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmX-gm-ogB">
+                        <rect key="frame" x="234" y="265" width="76" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZ7-Cm-glw">
+                        <rect key="frame" x="79" y="265" width="77" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCW-Da-R5K">
+                        <rect key="frame" x="79" y="294" width="231" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33w-qr-D1U">
+                        <rect key="frame" x="79" y="236" width="231" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9A7-GX-GUA">
+                        <rect key="frame" x="79" y="323" width="231" height="28"/>
+                        <color key="backgroundColor" red="0.89000368118286133" green="0.89012889067331957" blue="0.88995202382405603" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="corner.png" translatesAutoresizingMaskIntoConstraints="NO" id="OJr-1F-arw">
+                        <rect key="frame" x="88" y="359" width="138" height="17"/>
+                    </imageView>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblDaiMoThuong" destination="LGR-wM-j87" id="rOV-TG-Qhd"/>
+                <outlet property="lblGiaiBa1" destination="1eV-pw-wSC" id="ygt-Vq-7qu"/>
+                <outlet property="lblGiaiBa2" destination="Bgy-x9-Wl3" id="KWU-kB-DWF"/>
+                <outlet property="lblGiaiBay1" destination="bCW-Da-R5K" id="02U-jU-EJ5"/>
+                <outlet property="lblGiaiDacBiet" destination="lVl-G6-RvT" id="kZh-9x-SSV"/>
+                <outlet property="lblGiaiNam1" destination="33w-qr-D1U" id="rZz-0A-mKO"/>
+                <outlet property="lblGiaiNhat" destination="1Q6-yb-MHE" id="eQ1-Ok-ZvW"/>
+                <outlet property="lblGiaiNhi1" destination="Jhl-ve-1Va" id="Z2S-NU-u6l"/>
+                <outlet property="lblGiaiSau1" destination="wZ7-Cm-glw" id="yP0-Ar-tbJ"/>
+                <outlet property="lblGiaiSau2" destination="qSy-Rx-r4Y" id="aoa-hR-DoW"/>
+                <outlet property="lblGiaiSau3" destination="RmX-gm-ogB" id="bTL-FH-VNm"/>
+                <outlet property="lblGiaiTam" destination="9A7-GX-GUA" id="Fg8-76-2e4"/>
+                <outlet property="lblGiaiTu1" destination="KbD-FH-8vC" id="zQe-7e-CcP"/>
+                <outlet property="lblGiaiTu2" destination="qsE-ht-Iyz" id="Idx-y8-nxv"/>
+                <outlet property="lblGiaiTu3" destination="2vW-j3-Pnj" id="gBd-9G-lDA"/>
+                <outlet property="lblGiaiTu4" destination="T3z-bJ-lLH" id="8z2-4B-l0n"/>
+                <outlet property="lblGiaiTu5" destination="tak-wM-pCe" id="LvB-bu-90n"/>
+                <outlet property="lblGiaiTu6" destination="HUG-w6-NtZ" id="Y0u-Tm-HiP"/>
+                <outlet property="lblGiaiTu7" destination="fKl-id-Ht4" id="ODF-A7-XDi"/>
+                <outlet property="lblNgayMoThuong" destination="0MT-qv-6ne" id="Tb2-v7-uIw"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="corner.png" width="213" height="26"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
